@@ -59,8 +59,6 @@ export default function Home() {
   const [expected, setExpected] = useState();
   const [isCorrect, setIsCorrect] = useState();
 
-  const [img, setImg] = useState();
-
   useEffect(() => {
     setCurrentPokemon(pickRandom());
   }, []);
